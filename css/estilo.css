@@ -133,13 +133,11 @@ header .textos-header{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-
 }
 
 .imagen-port{
     width: 24%;
-   
+    height: 200px;
     margin-bottom: 10px;
     overflow: hidden;
     position: relative;
@@ -184,4 +182,34 @@ header .textos-header{
 
 /*Cliente*/
 
-/* .cards */
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cards .card{
+    background: #162eb8;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.cards .card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+}
+
+.cards .card > .contenido-texto-card{
+    width: 60%;
+    color: aliceblue;
+
+}
