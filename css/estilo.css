@@ -290,3 +290,45 @@ footer{
     margin: 24px;
     color: #9e9797;
 }
+
+
+/*Responsive*/
+
+@media screen and (max-width: 900px){
+    header{
+        background-position: center;
+    }
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+    .imagen-about-us{
+        width: 90%;
+    }
+    /*Galeria*/
+
+    .imagen-port{
+        width: 44%;
+    }
+
+    /*Cliente*/
+
+    .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards .card{
+        width: 90%;
+    }
+
+    .cards .card:first-child{
+        margin-bottom: 30Px;
+    }
+}
